@@ -34,16 +34,21 @@ function Header() {
                     <CustomClose onClick={()=>setBurgerStatus(false)} />
                 </CloseWrapper>
                 
+                <li><a href="#">Model S</a></li>
+                <li><a href="#">Model 3</a></li>
+                <li><a href="#">Model X</a></li>
+                <li><a href="#">Model Y</a></li>
                 <li><a href="#">Existing Inventory</a></li>
                 <li><a href="#">Used Inventory</a></li>
                 <li><a href="#">Trade-in</a></li>
                 <li><a href="#">CyberTruck</a></li>
                 <li><a href="#">Roadster</a></li>
-                <li><a href="#">Existing Inventory</a></li>
-                <li><a href="#">Existing Inventory</a></li>
-                <li><a href="#">Existing Inventory</a></li>
-                <li><a href="#">Existing Inventory</a></li>
-                <li><a href="#">Existing Inventory</a></li>
+                <li><a href="#">Semi</a></li>
+                <li><a href="#">Charging</a></li>
+                <li><a href="#">Power</a></li>
+                <li><a href="#">Components</a></li>
+                <li><a href="#">Utilities</a></li>
+                <li><a href="#">Test Drive</a></li>
             </BurgerNav>
         </Container>
     )
@@ -73,6 +78,7 @@ const Menu = styled.div`
         text-transform: uppercase;
         padding: 0 10px;
         flex-wrap: no-wrap;
+        cursor: pointer;
     }
 
     @media(max-width: 768px) {
@@ -106,6 +112,7 @@ const BurgerNav= styled.div`
     text-align: start;
     transform: ${props => props.show ? 'translateX(0)' : 'translateX(100%)'};
     transition: transform 0.2s;
+    overflow-y: scroll ;
     li{
         padding: 15px 0;
         border-bottom: 1px solid rgba(0, 0, 0, .2);
@@ -114,6 +121,8 @@ const BurgerNav= styled.div`
             font-weight: 600;
         }
     }
+    ::-webkit-scrollbar {
+        display: none;
 `
 const CustomClose= styled(CloseIcon)`
     cursor: pointer;
