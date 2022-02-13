@@ -7,28 +7,28 @@ function Home() {
             <Section
                 title="Model S"
                 description="Order online for touchless delivery"
-                backgroundImg="modesl-s.jpg"
+                backgroundImg="model-s.jpg"
                 leftBtnText="Custom Order"
                 rightBtnText="Existing inventory"
             />
             <Section
                 title="Model Y"
                 description="Order online for touchless delivery"
-                backgroundImg="modesl-y.jpg"
+                backgroundImg="model-y.jpg"
                 leftBtnText="Custom Order"
                 rightBtnText="Existing inventory"
             />
             <Section
                 title="Model 3"
                 description="Order online for touchless delivery"
-                backgroundImg="modesl-3.jpg"
+                backgroundImg="model-3.jpg"
                 leftBtnText="Custom Order"
                 rightBtnText="Existing inventory"
             />
             <Section
                 title="Model X"
                 description="Order online for touchless delivery"
-                backgroundImg="modesl-x.jpg"
+                backgroundImg="model-x.jpg"
                 leftBtnText="Custom Order"
                 rightBtnText="Existing inventory"
             />
@@ -42,7 +42,7 @@ function Home() {
             <Section
                 title="Solar for new roof"
                 description="Solar Roof Costs Less Than a New Roof Plus Solar Panels"
-                backgroundImg="solar-panel.jpg"
+                backgroundImg="solar-roof.jpg"
                 leftBtnText="Order now"
                 rightBtnText="Learn More"
             />
