@@ -1,5 +1,5 @@
 import React from 'react'
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
 import Fade from 'react-reveal/Fade';
 
 function Section({ title, description, backgroundImg, leftBtnText, rightBtnText}) {

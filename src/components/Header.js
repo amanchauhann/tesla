@@ -3,9 +3,14 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Fade from 'react-reveal/Fade';
 import CloseIcon from '@mui/icons-material/Close';
 import { useState } from "react";
+import { selectCars } from '../features/car/carSlice'
+// import { useSelector } from 'react-redux';
+// import { useSelector } from '../react-redux'
 
 function Header() {
     const [burgerStatus, setBurgerStatus] = useState(false);
+    // const cars = useSelector(selectCars);
+    // console.log(cars);
 
 
     return (
